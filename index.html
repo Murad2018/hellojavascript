@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Hello JS</title>
-	<script type="text/javascript">
-		function sayHello(){
-			alert ("Hello My Friend!!!");
-		}
-		
-	</script>
+	
 </head>
 <body>
-	<input type="button" value="Say Hello" onclick="sayHello()">
+	<script type="text/javascript">
+		
+		/*var hungry;
+		hungry  = false;
+
+		if (hungry){
+			document.write("can we have a quick lunch?");
+		}
+		else {
+			document.write("I can still handle it for a while.")
+		}
+
+		var colors;
+		colors = ["white", "black", "3", true];
+
+		document.write(colors[2]);
+		document.write(" "+ colors[3]);
+		document.write(colors.length); */
+
+
+
+
+		/*var placeIVisited;
+		placeIVisited = ["US", "Germany", "ukraine", "malaysia", "Singapore"];
+
+		document.write(placeIVisited[1]);
+		document.write(" "+ placeIVisited.length);*/
+
+		/*var subtotal = (13+1)*5;
+		var shipping = 0.5 * (13+1);
+		var total = subtotal + shipping;
+
+		document.write(subtotal);
+		document.write(shipping);
+		document.write(total);
+
+
+		var pass = 50;
+		var score = 75;
+		var msg;
+
+		if (score >= pass){
+			msg = "Congrrtulations!!!";
+			msg = msg + "Proceed to the next level"; //or can be msg += "Proceed"
+		}
+		else {
+			msg = "You have failed. Try again!!"
+		}
+
+		document.write(msg); */
+
+		var ticketPrice = 100;
+		var age = 41;
+
+		if (age<=18 || age>=65){
+			ticketPrice *= 0.5;
+		}else if (age>40 && age<65){
+			ticketPrice *= 0.25;
+		}else{
+			ticketPrice *= 1;
+		}
+
+		document.write("Ticket price is Rm" + ticketPrice);
+	
+		
+	</script>
+	<!--<input type="button" value="Say Hello" onclick="sayHello()">-->
 	
 
 </body>
